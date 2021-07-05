@@ -5,6 +5,23 @@ let userName = prompt('what\'s Your Name ? ');
 console.log('Welcome '+ userName);
 alert('Welcome ' + userName);
 
+let age = prompt('what\'s Your Age ? ');
+            console.log('Your Age is : '+ age);
+            alert('Hi ' + userName + ' Your Age is : '+ age);
+
+            let Country = prompt('Where Are You From ? ');
+            console.log('Your Country: '+ Country);
+            alert('Hi ' + userName + ' Your Country is : '+ Country);  
+            
+            let sport = prompt('what\'s Your Favorite Sport ? ');
+            console.log('Your Country: '+ sport);
+            alert('Hi ' + userName + ' Your Country is : '+ sport); 
+
+            document.write("<hr>"+"<br>"+"<h4>"+ "Your Name : "+userName+"</h4>")
+            document.write("<hr>"+"<br>"+"<h4>"+ "Your Age : "+age+"</h4>")
+            document.write("<hr>"+"<br>"+"<h4>"+ "Your Country : "+Country+"</h4>")
+            document.write("<hr>"+"<br>"+"<h4>"+ "Your Favorite Sport : "+sport+"</h4>")
+
 
 let count1 = 1;
 let count2 = 0;
