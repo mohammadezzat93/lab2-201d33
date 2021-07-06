@@ -18,10 +18,10 @@ let age = prompt('what\'s Your Age ? ');
             console.log('Your Country: '+ sport);
             alert('Hi ' + userName + ' Your Country is : '+ sport);
 
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Name : "+'<span>'+userName+'</span>'+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Age : "+'<span>'+age+'</span>'+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Country : "+'<span>'+Country+'</span>'+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Favorite Sport : "+'<span>'+sport+'</span>'+"</h4>")
+            // document.write("<hr>"+"<br>"+"<h4>"+ "Your Name : "+'<span>'+userName+'</span>'+"</h4>")
+            // document.write("<hr>"+"<br>"+"<h4>"+ "Your Age : "+'<span>'+age+'</span>'+"</h4>")
+            // document.write("<hr>"+"<br>"+"<h4>"+ "Your Country : "+'<span>'+Country+'</span>'+"</h4>")
+            // document.write("<hr>"+"<br>"+"<h4>"+ "Your Favorite Sport : "+'<span>'+sport+'</span>'+"</h4>")
 
 
 let check_natural = prompt("Are you human ? (yes , y , no , n) ")
@@ -174,7 +174,7 @@ let counter = 1;
         }
         if (i !==6){
             alert('wrong answer, try again');
-            // console.log(myProgramminglanguage[i]);
+            // console.log(myProgramminglanguage[i]); //9.46
         }
     }
 

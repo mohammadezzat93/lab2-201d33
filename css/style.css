@@ -1,46 +1,121 @@
-h1 {
+div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+    #company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+#footer
+{
+    margin-top: 30px;
     text-align: center;
-    color: darkblue;
-    font-size: 50px;
-}
-h3 {
+    height:40px;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
     text-align: center;
-    color: red;
-    font-size: 20px;
-}
-h4 {
-    text-align: center;
-    color: darkblue;
-    font-size: 20px;
-}
-span {
-    color: darkgoldenrod;
-}
-ol {
-    background: #ff9999;
-    padding: 20px;
-  }
-  
-  ul {
-    background: #3399ff;
-    padding: 20px;
-  }
-  
-  ol li {
-    background: #ffe5e5;
-    padding: 5px;
-    margin-left: 35px;
-  }
-  
-  ul li {
-    background: #cce5ff;
-    margin: 5px;
-  }
-  a{
-      text-decoration: none;
-  }
-h4 {
-    text-align: center;
-    color: gold;
-    font-size: 30px;
-}
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+
+
+    span {
+        color: darkgoldenrod;
+    }
+    ol {
+        background: #ff9999;
+        padding: 20px;
+      }
+      
+      ul {
+        background: #3399ff;
+        padding: 20px;
+      }
+      
+      ol li {
+        background: #ffe5e5;
+        padding: 5px;
+        margin-left: 35px;
+      }
+      
+      ul li {
+        background: #cce5ff;
+        margin: 5px;
+      }
+      a{
+          text-decoration: none;
+      }
+    h4 {
+        text-align: center;
+        color: gold;
+        font-size: 30px;
+    }
+    
