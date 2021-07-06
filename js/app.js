@@ -161,7 +161,7 @@ while (counter < 4 && number !== 60) {
   }
 
 }
-alert('The correct number is 60');
+
 
 if (number === 60) {
   alert('That is correct! The number is 60');
@@ -169,6 +169,7 @@ if (number === 60) {
   count++;
   ;
 }
+alert('The correct number is 60');
 
 //           ***************   Q7   ****************
 
