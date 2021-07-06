@@ -18,10 +18,10 @@ let sport = prompt('what\'s Your Favorite Sport ? ');
 console.log('Your Country: ' + sport);
 alert('Hi ' + userName + ' Your Country is : ' + sport);
 
-document.write("<hr>" + "<br>" + "<h4>" + "Your Name : " + '<span>' + userName + '</span>' + "</h4>")
-document.write("<hr>" + "<br>" + "<h4>" + "Your Age : " + '<span>' + age + '</span>' + "</h4>")
-document.write("<hr>" + "<br>" + "<h4>" + "Your Country : " + '<span>' + Country + '</span>' + "</h4>")
-document.write("<hr>" + "<br>" + "<h4>" + "Your Favorite Sport : " + '<span>' + sport + '</span>' + "</h4>")
+// document.write("<hr>" + "<br>" + "<h4>" + "Your Name : " + '<span>' + userName + '</span>' + "</h4>")
+// document.write("<hr>" + "<br>" + "<h4>" + "Your Age : " + '<span>' + age + '</span>' + "</h4>")
+// document.write("<hr>" + "<br>" + "<h4>" + "Your Country : " + '<span>' + Country + '</span>' + "</h4>")
+// document.write("<hr>" + "<br>" + "<h4>" + "Your Favorite Sport : " + '<span>' + sport + '</span>' + "</h4>")
 
 
 
@@ -196,4 +196,4 @@ for (i = 0; i < 6; i++) {
 
 alert('My Programming language : java, javascript, c++, c#, python');
 
-alert(`you have a count of ${count} / 7`);
+alert(`you have a score of ${count} / 7`);
