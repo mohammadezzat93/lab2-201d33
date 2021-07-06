@@ -16,16 +16,7 @@ let age = prompt('what\'s Your Age ? ');
             
             let sport = prompt('what\'s Your Favorite Sport ? ');
             console.log('Your Country: '+ sport);
-            alert('Hi ' + userName + ' Your Country is : '+ sport); 
-<<<<<<< HEAD
-=======
-
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Name : "+userName+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Age : "+age+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Country : "+Country+"</h4>")
-            document.write("<hr>"+"<br>"+"<h4>"+ "Your Favorite Sport : "+sport+"</h4>")
-
->>>>>>> bc2e3795e8c79df3b954e059b04a3d14a9a2cdf9
+            alert('Hi ' + userName + ' Your Country is : '+ sport);
 
             document.write("<hr>"+"<br>"+"<h4>"+ "Your Name : "+'<span>'+userName+'</span>'+"</h4>")
             document.write("<hr>"+"<br>"+"<h4>"+ "Your Age : "+'<span>'+age+'</span>'+"</h4>")

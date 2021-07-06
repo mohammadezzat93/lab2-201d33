@@ -6,7 +6,6 @@ h1 {
 h3 {
     text-align: center;
     color: red;
-<<<<<<< HEAD
     font-size: 20px;
 }
 h4 {
@@ -40,12 +39,8 @@ ol {
   a{
       text-decoration: none;
   }
-=======
-    font-size: 30px;
-}
 h4 {
     text-align: center;
     color: gold;
     font-size: 30px;
 }
->>>>>>> bc2e3795e8c79df3b954e059b04a3d14a9a2cdf9
