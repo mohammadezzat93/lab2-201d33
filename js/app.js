@@ -32,6 +32,9 @@ let count = 0;
 let check_natural = prompt("Are you human ? (yes , y , no , n) ")
 check_natural = check_natural.toLowerCase();
 
+function question_1(){
+
+
 while (!check_natural) {
   check_natural = prompt("Please write anything");
 }
@@ -48,11 +51,15 @@ else if (check_natural === 'no' || check_natural === 'n') {
 else {
   alert("Wrong Answer , not valid");
 }
+}
+question_1();
 
 //           ***************   Q2   ****************
 
 let friend = prompt("Am I your friend ? (yes , y , no , n) ")
 friend = friend.toLowerCase();
+
+function question_2(){
 
 while (!friend) {
   friend = prompt("Please write anything");
@@ -71,11 +78,15 @@ else if (friend === 'no' || friend === 'n') {
 else {
   alert("Wrong Answer , not valid");
 }
+}
+question_2();
 
 //           ***************   Q3  ****************
 
 let smoke = prompt("Do you smoke ? (yes , y , no , n) ")
 smoke = smoke.toLowerCase();
+
+function question_3(){
 
 while (!smoke) {
   smoke = prompt("Please write anything");
@@ -94,11 +105,15 @@ else if (smoke === 'no' || smoke === 'n') {
 else {
   alert("Wrong Answer , not valid");
 }
+}
+question_3();
 
 //           ***************   Q4  ****************
 
 let vegetarian = prompt("Are you a vegetarian ? (yes , y , no , n) ")
 vegetarian = vegetarian.toLowerCase();
+
+function question_4(){
 
 while (!vegetarian) {
   vegetarian = prompt("Please write anything");
@@ -117,11 +132,15 @@ else if (vegetarian === 'no' || vegetarian === 'n') {
 else {
   alert("Wrong Answer , not valid");
 }
+}
+question_4();
 
 //           ***************   Q5  ****************
 
 let help = prompt("Do you like to help others ? (yes , y , no , n) ")
 help = help.toLowerCase();
+
+function question_5(){
 
 while (!help) {
   help = prompt("Please write anything");
@@ -140,13 +159,17 @@ else if (help === 'no' || help === 'n') {
 else {
   alert("Wrong Answer , not valid");
 }
+}
+question_5();
 
 // document.write("<hr>" + "<br>" + "<h3>" + "question mark 5 : " + count1 + "</h3>")
 
 // ***************   Q6  ****************
 
+function question_6(){
 
 let counter = 0;
+
 if (counter === 4) {
   alert('Sorry you run out of guesses');
 }
@@ -169,9 +192,15 @@ if (number === 60) {
   count++;
   ;
 }
+}
+question_6();
+
 alert('The correct number is 60');
 
 //           ***************   Q7   ****************
+
+
+function question_7(){
 
 let myProgramminglanguage = ['java', 'javascript', 'c++', 'c#', 'python'];
 let i = 0
@@ -194,6 +223,8 @@ for (i = 0; i < 6; i++) {
     alert('wrong answer, try again');
   }
 }
+}
+question_7();
 
 alert('My Programming language : java, javascript, c++, c#, python');
 
