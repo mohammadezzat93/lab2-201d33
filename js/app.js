@@ -229,3 +229,138 @@ question_7();
 alert('My Programming language : java, javascript, c++, c#, python');
 
 alert(`you have a score of ${count} / 7`);
+
+
+
+// ********************************************************************************************************************
+
+//   lab03:
+
+// let favouriteFood=prompt('is mlokheyeh my favourite?');
+
+// console.log('before',favouriteFood);
+
+// favouriteFood=favouriteFood.toUpperCase();
+// 'YES'
+// 'yes'==='YES';
+// switch(favouriteFood){
+//     case 'YES':
+//     case 'Y':
+//         alert('no you are wrong');
+//         console.log('favourite food',favouriteFood);
+//         break;
+//     case 'NO':
+//     case 'N':
+//         alert('good job');
+//         break;
+//     default:
+//         alert('please answer with yes/y or no/n');
+//         break;
+// }
+
+// console.log(favouriteFood);
+
+//===================================================================================
+
+
+// break: it stop the loop from looping
+
+// continue: it skips this iteration
+
+// for (let i = 0; i < 5; i++) {
+//     // 0
+//     console.log(i);
+//     // if (i===4) {
+//     //     break;
+//     // }
+
+//     if (i===2) {
+//        continue;
+//     }
+    
+//     console.log('hello');
+// }
+
+//===================================================================================
+
+// do while loop
+// code will run once even if condition is false
+
+// if condition is true it will keep running
+
+// let i=5;
+
+// do{
+//   console.log('hello from do while');
+// }while(i>10);
+
+//===================================================================================
+
+// let grade1=50;
+// let grade2=100;
+// let grade3=200;
+
+// let grades=[50,89,60,24,50,100];
+
+// let names=['reem','ahmad','noor'];
+// 0   1   2
+
+// console.log('the whole array',grades);
+
+// console.log('the first element',grades[0]);
+
+// console.log('the fourth element',grades[3]);
+
+// print the index of a value
+// console.log('get index of the value 60',grades.indexOf(60));
+
+// console.log(names.indexOf('noor'));
+
+
+// print length
+// console.log(grades.length);
+
+// add elements at the end of the array:
+
+
+// console.log('before',grades);
+
+// grades.push(33);
+
+
+
+// remove the element from the end:
+
+// grades.pop();
+
+// console.log('after',grades);
+
+
+//============================================================================
+
+// global scoped variable
+// let userInput=prompt('whats your name');
+
+// function getName(userName) {
+//     // locally scoped 
+//     let output='hello '+ userName;
+//     let output2='goodbye';
+    
+//     return [output ,output2];
+    
+//     console.log('hello');
+
+
+// }
+
+// // alert(output);
+// console.log('all of the values',getName(userInput)); 
+// console.log('first',getName(userInput)[0]); 
+// console.log('second',getName(userInput)[1]); 
+
+//============================================================================
+
+
+
+
+// ********************************************************************************************************************
